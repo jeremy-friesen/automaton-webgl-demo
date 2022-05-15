@@ -1,9 +1,85 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  /*background-color: #232323;*/
+  background-color: #003044;
+  /*font-family: Consolas,monaco,monospace;*/
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+a:hover {
+  color: #b2ffff;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Cascadia Code', sans-serif;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2.3em;
+  font-family: 'Cascadia Code', sans-serif;
+  text-align: left;
+}
+
+i {
+  height: 1.35em;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inline-image {
+  height: 0.8em;
+  width: auto;
+  display: inline-block;
+  /*vertical-align: middle;*/
+  text-decoration: underline;
+}
+
+.link-inline-image {
+  height: 1em;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  /*text-decoration: underline;*/
+  border-bottom: 4px solid white;
+  /*bottom: 10px;*/
+  /*padding-bottom: 5px;*/
+}
+
+.devicon {
+  height: 1em;
+  width: auto;
+
+  font-family: 'devicon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.9em;
+  font-family: 'Cascadia Code', sans-serif;
+  text-align: left;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
 }
 
@@ -22,6 +98,67 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.parallaxBlack {
+  /* The image used */
+  background-image: url('background\ 756x424\ 4k.jpg');
+
+  /* Set a specific height */
+  /*height: 100%;*/
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background-darken {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  pointer-events: none;
+}
+
+
+.parallaxBlue {
+  /* The image used */
+  background-image: url('background\ 756x424\ 4k\ -\ blue.jpg');
+
+  /* Set a specific height */
+  /*height: 100%;*/
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button {
+  text-transform: "none"
+}
+
+ul {
+  font-size: 1.9em;
+  font-family: 'Cascadia Code', sans-serif;
+  text-align: left;
+}
+
+li{
+  margin: 15px 0;
+}
+
+.fullscreen {
+  background-image: url('fullscreen.png');
+  width: 38px;
+  float: right;
 }
 
 .App-link {
