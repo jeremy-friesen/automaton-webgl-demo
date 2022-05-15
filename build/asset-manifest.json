@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/automaton-webgl-demo/static/css/main.d5946f96.css",
+    "main.js": "/automaton-webgl-demo/static/js/main.637529d6.js",
+    "static/js/787.a3dafc5f.chunk.js": "/automaton-webgl-demo/static/js/787.a3dafc5f.chunk.js",
+    "static/media/background 756x424 4k - blue.jpg": "/automaton-webgl-demo/static/media/background 756x424 4k - blue.7e97720e665cf46133f7.jpg",
+    "static/media/background 756x424 4k.jpg": "/automaton-webgl-demo/static/media/background 756x424 4k.23b26addc591db2468c6.jpg",
+    "static/media/automaton-logo-high-res.png": "/automaton-webgl-demo/static/media/automaton-logo-high-res.2f970e6d76f855e2c66e.png",
+    "index.html": "/automaton-webgl-demo/index.html",
+    "main.d5946f96.css.map": "/automaton-webgl-demo/static/css/main.d5946f96.css.map",
+    "main.637529d6.js.map": "/automaton-webgl-demo/static/js/main.637529d6.js.map",
+    "787.a3dafc5f.chunk.js.map": "/automaton-webgl-demo/static/js/787.a3dafc5f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5946f96.css",
+    "static/js/main.637529d6.js"
+  ]
+}
